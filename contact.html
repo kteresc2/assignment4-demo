@@ -29,18 +29,59 @@
         </nav>
     </header>
     <div class="contact-form">
-        <h1>Contact Us</h1>
-        <form method="get">
-            <label for="firstname">First Name: </label><input type="text" name="fname" id="firstname"><br><br>
-            <label for="lastname">Last Name: </label><input type="text" name="lname" id="lname"><br><br>
-            <label for="email">E-mail: </label><input type="text" name="email" id="email"><br><br>
-            <label for="comments">Comments:</label>
-            <textarea name="comments" id="comments" rows="4" cols="40"></textarea>
-            <br>
-            <input class="contact-form-button" type="submit" value="Contact"><br><br> 
-            <input class="contact-form-button" type="reset">
-           
+        <h1 style="text-align: center;">Contact Us</h1>
+        <form style="width: 75%; margin: auto;">
+            <table>
+                <tr>
+                    <th><label for="firstname">First Name: </label></th>
+                    <td><input type="text" name="firstname" id="firstname"></td>
+                </tr>
+                <tr>
+                    <th><label for="lastname">Last Name: </label></th>
+                    <td><input type="text" name="lastname" id="lastname"></td>
+                </tr>
+                <tr>
+                    <th><label for="email">E-mail: </label></th>
+                    <td><input type="text" name="email" id="email"></td>
+                </tr>
+                <tr>
+                    <th><label for="comments">Comments:</label></th>
+                    <td><textarea name="comments" id="comments" rows="4" cols="40"></textarea></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>
+                        <input type="submit" id="submit" value="Submit">
+                        <input type="reset" id="reset" value="Reset">
+                    </td>
+                </tr>
+            </table>
         </form>
+
+        <!--
+        <form>
+            <p>
+            <label for="firstname">First Name: </label>
+            <input class="clearfix" type="text" name="firstname" id="firstname">
+            </p>
+            <p>
+            <label for="lastname">Last Name: </label>
+            <input class="clearfix" type="text" name="lastname" id="lastname">
+            </p>
+            <p>
+            <label for="email">E-mail: </label>
+            <input class="clearfix" type="text" name="email" id="email">
+            </p>
+            <p>
+            <label for="comments">Comments:</label>
+            <textarea class="clearfix" name="comments" id="comments" rows="4" cols="40"></textarea>
+            </p>
+            <p>
+            <input class="contact-form-button" type="submit" value="Submit">
+            <input class="contact-form-button" type="reset" value="Reset">
+            </p>
+        </form>
+-->
     </div>
 
 

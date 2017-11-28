@@ -113,36 +113,84 @@ header {
     text-align: center;
 }
 
+
+/*
+form  { 
+    display: table;      
+}
+form p { 
+    display: table-row;  
+    width: 100%;
+}
+form label { 
+    display: table-cell; 
+    text-align: right;
+    padding-right: 10px;
+}
+form input { 
+    display: table-cell; 
+    width: 100%;;
+}
+*/
+
 .contact-form {
-    position: absolute;
-    width: 1140px;
+    position: fixed;
     top: 50%;
     left: 50%;
     -webkit-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
-    text-align: center;
 }
 
-.contact-form label {
-    color: #ffffff;
-    float: left;
-    margin-left: 150px;
+table {
+    border-spacing: 5px;
+    text-align: right;
 }
 
-.contact-form input,
-textarea {
-    color: #000;
+th {
+    color: #fff;
+    padding-right: 10px;
+}
+
+td {
+    padding: 5px;
+    width: 100%;
+}
+
+input {
+    width: 100%;
+}
+
+input#submit,
+input#reset {
+    width: 100px;
+    margin-left: 10px;
+}
+
+
+/*
+.contact-form {
+    color: #fff;
+    width: 1140px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+.contact-form input, text, textarea {
     float: right;
-    margin-right: 150px;
 }
 
 .contact-form-button {
-    clear: both;
+    width: 100px;
+    color: #000;
     display: inline-block;
     cursor: pointer;
-    text-align: center;
+    background-color: #fff;
 }
+*/
 
 #hero-h2 {
     color: #fff;
