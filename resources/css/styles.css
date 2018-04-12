@@ -1,6 +1,6 @@
-* { 
-    box-sizing: border-box; 
-    margin: 0; 
+* {
+    box-sizing: border-box;
+    margin: 0;
 }
 
 html {
@@ -17,7 +17,7 @@ body {
 }
 
 h1 {
-        text-transform: uppercase; 
+    text-transform: uppercase;
 }
 
 h1,
@@ -31,7 +31,7 @@ a {
     font-size: 1.2em;
     transition: background-color .3s, color .3s;
     text-decoration: none;
-    text-transform: uppercase; 
+    text-transform: uppercase;
 }
 
 a:hover {
@@ -82,7 +82,9 @@ form label {
     flex-basis: 33%;
 }
 
-form input, textarea, select {
+form input,
+textarea,
+select {
     flex: 1;
     margin: 0 1em;
     border-radius: 5px;
@@ -90,11 +92,11 @@ form input, textarea, select {
 
 form select {
     text-align: center;
-    
+
 }
 
 form input[type=submit] {
-    color:#0089ff;
+    color: #0089ff;
 }
 
 .radio-buttons {
@@ -205,13 +207,14 @@ footer nav li {
 }
 
 @media screen and (max-width: 30rem) {
-    header, 
-    main, 
+    header,
+    main,
     footer,
     form p {
         flex-direction: column;
-    }    
-    form input, textarea {
+    }
+    form input,
+    textarea {
         margin: 2px 0;
     }
 }
