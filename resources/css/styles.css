@@ -90,7 +90,6 @@ form input, textarea, select {
 
 form select {
     text-align: center;
-    
 }
 
 form input[type=submit] {
@@ -168,6 +167,7 @@ cite img {
     flex-basis: 125px;
     max-width: 300px;
     margin: 5px;
+    text-align: center;
 }
 
 .pics img {
@@ -213,5 +213,11 @@ footer nav li {
     }    
     form input, textarea {
         margin: 2px 0;
+    }
+    .hero-text {
+/*        flex: none;*/
+    }
+    form select {
+/*        margin: 0;*/
     }
 }
