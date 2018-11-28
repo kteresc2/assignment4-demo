@@ -112,8 +112,13 @@ form input[type=submit] {
     margin-bottom: 1em;
 }
 
+.hero-text ul h2, header ul li a, footer ul li a {
+    color: purple
+}
+
 .hero-text ul {
     list-style-type: none;
+    
 }
 
 .quote {
